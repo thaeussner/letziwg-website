@@ -1,16 +1,17 @@
 ---
-title: "LETZIWG"
+title: "    "
 format:
-  html:
-    toc: true
-    html-math-method: katex
-    css: styles.css
+  html
 ---
 
-dis is letziwg.
+-   dis is letziwg.
 
+    ```         
+                                ._.
+    ```
 
+-   and dis is Engadin im Herbst:![wow!](engadin im herbst.jpg)
 
+wow! mega schö
 
-
-                                  ._.
+for more information: [letziwg.ch](letziwg.ch)
