@@ -1,7 +1,6 @@
 ---
 title: "LetziWG"
-format:
-  html
+format: revealjs
 ---
 
 -   dis is letziwg. the best letziwg.
@@ -10,7 +9,7 @@ format:
                                 ._.
     ```
 
--   and dis is Engadin im Herbst:![wow!](engadin im herbst.jpg)
+-   and dis is Engadin im Herbst:![wow!](engadin%20im%20herbst.jpg)
 
 wow! mega schö
 
