@@ -1,7 +1,13 @@
 ---
 title: "LetziWG"
-format: revealjs
+author: "  von und zu LetziWG"
+format: 
+  dashboard:
+    logo: letziwg-logo.png
+    nav-buttons: [github]
 ---
+
+# helö
 
 -   dis is letziwg. the best letziwg.
 
@@ -14,3 +20,36 @@ format: revealjs
 wow! mega schö
 
 for more information: [letziwg.ch](http://letziwg.ch)
+
+# red flags
+
+## Row
+
+1.  unironisch ins Ayverdi's
+2.  täglich Fleisch essen
+3.  "Recht ist immer der richtige Weg"
+4.  "Weiber", "meine Alte", "Females"
+5.  Verbindungen, Zünfte etc.
+6.  "Ich esse kein Gemüse"
+7.  "Habe ich auf Telegram gelesen"
+8.  unironisch stolz aufs Saufen
+9.  unfreundlich zum Servicepersonal sein
+10. schnelle Autos auf Insta posten
+11. Zigaretten auf den Boden schmeissen; Littering generell
+12. auf den Boden spucken
+13. die Kirche unterstützen
+14. stolz aufs BWL-Studium sein, insb. Maximilian (von und zu)
+15. "Heutzutage kann man ja niemanden mehr wählen"
+16. "Heutzutage darf man ja gar nichts mehr sagen"
+17. "Heutzutage weiss man ja gar nichts mehr ob Mann, Frau oder so"
+
+# Ingwerer {orientation="columns"}
+
+## Column 
+Zuletzt gecraftet: 2024-04-18
+
+Flaschen noch vorhanden: 2.7 von 5
+
+## Column
+
+![wow!](ingwerer.jpg){width="400"}
