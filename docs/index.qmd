@@ -1,29 +1,18 @@
 ---
 title: "LetziWG"
-author: "  von und zu LetziWG"
+author: "helö :)"
 format: 
-  dashboard:
-    logo: letziwg-logo.png
-    nav-buttons: [github]
+  revealjs
 ---
 
-# helö
 
--   dis is letziwg. the best letziwg.
-
-    ```         
-                                ._.
-    ```
-
+-   dis is letziwg. the best letziwg.       O.o 
+    
 -   and dis is Engadin im Herbst:![wow!](engadin%20im%20herbst.jpg)
 
 wow! mega schö
 
-for more information: [letziwg.ch](http://letziwg.ch)
-
-# red flags
-
-## Row
+## red flags 🚩
 
 1.  unironisch ins Ayverdi's
 2.  täglich Fleisch essen
@@ -33,6 +22,8 @@ for more information: [letziwg.ch](http://letziwg.ch)
 6.  "Ich esse kein Gemüse"
 7.  "Habe ich auf Telegram gelesen"
 8.  unironisch stolz aufs Saufen
+
+## red flags 🚩
 9.  unfreundlich zum Servicepersonal sein
 10. schnelle Autos auf Insta posten
 11. Zigaretten auf den Boden schmeissen; Littering generell
@@ -41,15 +32,48 @@ for more information: [letziwg.ch](http://letziwg.ch)
 14. stolz aufs BWL-Studium sein, insb. Maximilian (von und zu)
 15. "Heutzutage kann man ja niemanden mehr wählen"
 16. "Heutzutage darf man ja gar nichts mehr sagen"
-17. "Heutzutage weiss man ja gar nichts mehr ob Mann, Frau oder so"
 
-# Ingwerer {orientation="columns"}
 
-## Column 
+## red flags 🚩
+
+17. "Heutzutage weiss man ja nicht mehr ob Mann, Frau, ..."
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+
+
+
+## 🚰 Ingwerer Status:
+
+
 Zuletzt gecraftet: 2024-04-18
 
 Flaschen noch vorhanden: 2.7 von 5
 
-## Column
 
 ![wow!](ingwerer.jpg){width="400"}
+
+---
+
+## 🎮 how to switch:
+Switch Anleitung skübidüü:
+
+-> TV On/Off: Fernbedienung liegt davor
+
+-> Switch On: kleiner Knopf oben am Gerät in der Dockingstation
+
+-> Controller liegen auf dem Regal
+
+-> Switch Off: Standby im Hauptmenü ganz rechts auswählen. 
+
+SWITCH NICHT HERUNTERFAHREN!! 
+
+Viel Spass🥳
+
+
+# 🌐
+for more information: [letziwg.ch](http://letziwg.ch)
