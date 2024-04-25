@@ -10,7 +10,7 @@
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.550">
 
-  <meta name="author" content="helö :)">
+  <meta name="author" content="pls swipe or arrowkey">
   <title>LetziWG</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -327,11 +327,12 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">LetziWG</h1>
+  <p class="subtitle">helö :)</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-helö :) 
+pls swipe or arrowkey 
 </div>
 </div>
 </div>
@@ -339,13 +340,11 @@ helö :)
 </section>
 <section class="slide level2">
 
-<ul>
-<li><p>dis is letziwg. the best letziwg. O.o</p></li>
-<li><p>and dis is Engadin im Herbst:<img data-src="engadin%20im%20herbst.jpg" alt="wow!"></p></li>
-</ul>
-<p>wow! mega schö</p>
+<p>dis is letziwg. the best letziwg.</p>
+<p>O v O</p>
+<p>wow!</p>
 </section>
-<section id="red-flags" class="slide level2">
+<section id="red-flags" class="slide level2 scrollable smaller">
 <h2>red flags 🚩</h2>
 <ol type="1">
 <li>unironisch ins Ayverdi’s</li>
@@ -356,11 +355,6 @@ helö :)
 <li>“Ich esse kein Gemüse”</li>
 <li>“Habe ich auf Telegram gelesen”</li>
 <li>unironisch stolz aufs Saufen</li>
-</ol>
-</section>
-<section id="red-flags-1" class="slide level2">
-<h2>red flags 🚩</h2>
-<ol start="9" type="1">
 <li>unfreundlich zum Servicepersonal sein</li>
 <li>schnelle Autos auf Insta posten</li>
 <li>Zigaretten auf den Boden schmeissen; Littering generell</li>
@@ -369,27 +363,30 @@ helö :)
 <li>stolz aufs BWL-Studium sein, insb. Maximilian (von und zu)</li>
 <li>“Heutzutage kann man ja niemanden mehr wählen”</li>
 <li>“Heutzutage darf man ja gar nichts mehr sagen”</li>
-</ol>
-</section>
-<section id="red-flags-2" class="slide level2">
-<h2>red flags 🚩</h2>
-<ol start="17" type="1">
 <li>“Heutzutage weiss man ja nicht mehr ob Mann, Frau, …”</li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
 </ol>
+<p>to be continued …</p>
 </section>
-<section id="ingwerer-status" class="slide level2">
-<h2>🚰 Ingwerer Status:</h2>
+<section id="ingwerer-status-stand-24.4." class="slide level2">
+<h2>🚰 Ingwerer Status Stand 24.4.</h2>
 <p>Zuletzt gecraftet: 2024-04-18</p>
-<p>Flaschen noch vorhanden: 2.7 von 5</p>
-
-<img data-src="ingwerer.jpg" width="400" class="r-stretch quarto-figure-center"><p class="caption">wow!</p></section>
+<div class="columns">
+<div class="column" style="width:80%;">
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
+<figcaption>Figure 1: Füllstand der Ingwererflaschen</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div><div class="column">
+<p><img data-src="ingwerer.jpg" class="absolute" style="bottom: 0px; right: 0px; width: 300px; height: 500px; "></p>
+</div>
+</div>
+</section>
 <section id="how-to-switch" class="slide level2">
 <h2>🎮 how to switch:</h2>
 <p>Switch Anleitung skübidüü:</p>
@@ -619,6 +616,44 @@ helö :)
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

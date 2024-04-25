@@ -1,18 +1,20 @@
 ---
 title: "LetziWG"
-author: "helö :)"
+subtitle: "helö :)"
+author: "pls swipe or arrowkey"
 format: 
-  revealjs
+  revealjs:
+    theme: serif
 ---
 
 
--   dis is letziwg. the best letziwg.       O.o 
-    
--   and dis is Engadin im Herbst:![wow!](engadin%20im%20herbst.jpg)
+dis is letziwg. the best letziwg.
 
-wow! mega schö
+O v O
 
-## red flags 🚩
+wow!
+
+## red flags 🚩 {.scrollable .smaller}
 
 1.  unironisch ins Ayverdi's
 2.  täglich Fleisch essen
@@ -22,8 +24,6 @@ wow! mega schö
 6.  "Ich esse kein Gemüse"
 7.  "Habe ich auf Telegram gelesen"
 8.  unironisch stolz aufs Saufen
-
-## red flags 🚩
 9.  unfreundlich zum Servicepersonal sein
 10. schnelle Autos auf Insta posten
 11. Zigaretten auf den Boden schmeissen; Littering generell
@@ -32,30 +32,66 @@ wow! mega schö
 14. stolz aufs BWL-Studium sein, insb. Maximilian (von und zu)
 15. "Heutzutage kann man ja niemanden mehr wählen"
 16. "Heutzutage darf man ja gar nichts mehr sagen"
-
-
-## red flags 🚩
-
 17. "Heutzutage weiss man ja nicht mehr ob Mann, Frau, ..."
-18.
-19.
-20.
-21.
-22.
-23.
-24.
+
+to be continued ...
 
 
 
-## 🚰 Ingwerer Status:
-
+## 🚰 Ingwerer Status Stand 24.4.
 
 Zuletzt gecraftet: 2024-04-18
 
-Flaschen noch vorhanden: 2.7 von 5
+:::: {.columns}
+
+::: {.column width="80%"}
 
 
-![wow!](ingwerer.jpg){width="400"}
+```{r}
+#| echo: false
+#| fig-cap: "Figure 1: Füllstand der Ingwererflaschen"
+
+library(tidyverse)
+
+
+flasche <- c("Prima", "Absolut", "Trojka 1", "Trojka 2", "K-irgendwas")
+füllstand <- c(0, 16.7834, 100, 100, 0)
+status <-  c("...rip" , "alarm! :o", "all gud :)", "all gud :)", "...rip")
+# Join the variables to create a data frame
+df <- data.frame(flasche, füllstand, status)
+
+ggplot(data = df,
+       mapping = aes(x = flasche,
+                     y = füllstand,
+                     fill = status)) +
+  geom_col() +
+  geom_text(aes(label = status), vjust = -1) +
+  geom_text(aes(label = füllstand), vjust = -3) +
+  scale_y_continuous(breaks = c(0, 25, 50, 75, 100),
+                     limits = c(0, 130)) +
+  labs(title = "Füllstand der Ingwererflaschen (zu tief!!1!)",
+       x = "Flaschenname",
+       y = "Füllstand in %",
+       fill = "Status:") +
+  scale_fill_manual(values = c("alarm! :o" = "lightcoral", "all gud :)" = "lightgreen", "...rip" = "lightgray")) +
+  theme_minimal() +
+  theme(legend.position = "none")
+
+```
+
+
+:::
+
+::: {.column}
+
+
+![](ingwerer.jpg){.absolute bottom=0 right=0 width="300" height="500"}
+
+:::
+
+
+::::
+
 
 ---
 
